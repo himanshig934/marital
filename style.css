@@ -1,0 +1,533 @@
+*{
+
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+
+.container-page{
+
+position: relative;
+width: 100%;
+
+}
+
+/* side menu */
+
+.aside{
+
+background-color: #f6f1f0;
+width: 22%;
+height: 100vh;
+position: fixed;
+padding: 60px 30px;
+text-align: center;
+z-index: 1001;
+overflow-y: scroll;
+scrollbar-width: none;
+top: 0;
+left: 0;
+bottom: 0;
+}
+
+
+.aside .aside-logo h2{
+    color: #bd945a;
+  font-family: "Alex Brush", cursive;
+    font-style: italic;
+    text-align: center;
+    font-weight: 300;
+   font-size: 36px;
+   margin-top: 10px;
+}
+
+.aside .aside-logo h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.navbar ul li{
+    color: rgb(0, 0, 0);
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2.5em;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    padding: 0px;
+    transition: 0.3s;
+    border-bottom: 1px solid transparent;
+    list-style: none;
+}
+
+
+.navbar {
+   
+    padding: 3.5rem 4rem;
+    text-align: center;
+}
+
+
+/* hero section */
+
+.content-main{
+
+float: right;
+  width: 78%;
+
+}
+
+
+.hero-section{
+
+min-height: 100vh;
+background-image: url(images/slider.jpg);
+background-size: cover;
+  background-repeat: no-repeat;      
+display: flex;                         
+  justify-content: center;                   
+  align-items: center;      
+                  
+
+}
+
+.hero-section .hero-section-heading h2{
+
+color: white;
+  font-family: "Alex Brush", cursive;
+text-align: center;
+font-size: 120px;
+
+}
+
+
+.hero-section .hero-section-heading h5{
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+/* card section */
+
+.card-section{
+gap: 20px;
+}
+
+.card-main {
+    background-color: #faf8f7;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* bride */
+.card-main .card-section .left-content h4{
+
+    color: #BD945A;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alex Brush', cursive;
+
+}
+
+.card-main .card-section .left-content h3{
+
+color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    line-height: 18.25px;
+    margin: 0 0 20px 0;
+
+}
+
+img.img1 {
+    border-radius: 50%;
+    width: 140px;
+    float: right;
+}
+
+.bride{
+padding: 30px;
+}
+
+.card-section .left-content{
+text-align: right;
+margin-right: 160px;
+margin-left: 0px;
+}
+
+/* groom */
+.card-main .card-section .right-content h4{
+
+    color: #BD945A;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alex Brush', cursive;
+
+}
+
+.card-main .card-section .right-content h3{
+
+color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    line-height: 18.25px;
+    margin: 0 0 20px 0;
+
+}
+
+
+img.img2 {
+    border-radius: 50%;
+    width: 140px;
+    float: left;
+}
+
+
+.card-section .right-content{
+text-align: left;
+margin-right: 0px;
+margin-left: 160px;
+}
+
+
+/* couple heading */
+
+.couple-heading h3{
+
+    top: 12px;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    text-align: center;
+    font-size: 60px;
+    color: #BD945A;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+
+}
+
+.getting-married{
+    background-color: #faf8f7;
+    padding-bottom: 100px;
+}
+
+.couple-heading h4{
+
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+/* countdown */
+
+.countdown{
+
+background-image: url(images/banner-1.jpg);
+height: 50vh;
+background-size: cover;
+background-attachment: fixed;
+margin-bottom: 0px;
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+
+
+.countdown h4{
+    position: relative;
+    color: #fff;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
+.countdown-start h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+/* about section */
+
+.our-story{
+
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+
+.story-container{
+
+    padding-right: 60px;
+    padding-left: 60px;
+
+}
+
+.story-subtitle {
+    top: 12px;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #BD945A;
+    line-height: 1.25em;
+    margin-bottom: 10px;
+}
+
+.story-title {
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.story-heading{
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    line-height: 1.25em;
+    margin: 0 0 20px 0;
+}
+
+.story-content {
+    padding-top: 30px;
+    margin-left: 25px;
+}
+.img::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    left: 45px;
+    bottom: 0px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(189, 148, 90);
+    border-image: initial;
+}
+
+
+/* organization */
+
+
+.organization-section{
+
+padding-right: 60px;
+padding-left: 60px;
+padding-top: 50px;
+padding-bottom: 100px;
+background-color: #faf8f7;
+
+
+}
+
+.organization-heading{
+    top: 12px;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #BD945A;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.organization-subtitle{
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.num{
+font-size: 75px;
+    margin-bottom: 15px;
+    color: transparent;
+    -webkit-text-stroke: 1px #BD945A;
+}
+
+
+.title{
+font-size: 21px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    color: #000;
+}
+
+.grid-container{
+margin-top: 30px;
+}
+
+.col-sm.bg-white {
+    padding: 60px 30px;
+    border: 1px solid #f5f5f5;
+}
+
+
+/* when and where section */
+
+.where-section{
+
+padding-right: 60px;
+padding-left: 60px;
+padding-bottom: 100px;
+background-color: white;
+}
+
+.where-container{
+
+padding: 60px 30px;
+
+}
+
+/* card css */
+
+.card {
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin-right: 15px;
+}
+
+.card-title{
+font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    color: #000;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #bd945a;
+    border-color: #bd945a;
+    border-radius: 0px;
+}
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #bd945a;
+    border-color: #bd945a;
+}
+
+
+.card img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+/* footer */
+
+.footer-container{
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.footer-text{
+ color: black;
+  font-family: "Alex Brush", cursive;
+    font-style: italic;
+    text-align: center;
+    font-weight: 300;
+   font-size: 36px;
+   margin-top: 10px;
+}
+
+.copyright{
+
+font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #888;
+}
+
+
+
+/* form section */
+
+.form-section{
+padding-top: 100px;
+padding-bottom: 100px;
+background-attachment: fixed;
+}
+
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.form {
+    background: white;
+    /* width: 80%; */
+    padding: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* margin: 21%; */
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.form-title{
+    top: 12px;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #BD945A;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-subtitle{
+color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+

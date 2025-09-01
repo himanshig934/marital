@@ -1,0 +1,229 @@
+/* menu */
+
+/* Toggle Button */
+.menu-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #bd945a;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  z-index: 1100;
+  cursor: pointer;
+}
+
+/* Hide aside on small screens */
+@media (max-width: 768px) {
+  .aside {
+    left: -100%;
+    width: 250px;  
+    transition: left 0.3s ease;
+  }
+
+  .aside.active {
+    left: 0;
+  }
+
+  .content-main {
+    width: 100%; 
+    float: none;
+  }
+}
+
+
+
+/* hero section */
+
+@media (max-width: 768px) { 
+
+.content-main{
+
+width: 100%;
+
+}
+
+    .hero-section .hero-section-heading h2 {
+        font-size: 70px;
+    }
+
+    .hero-section .hero-section-heading h5{
+
+font-size: 15px;
+
+    }
+
+ }
+
+
+ /* card section */
+
+
+@media (max-width: 768px) { 
+ img.img1 {
+    border-radius: 50%;
+    width: 140px;
+    float: none;
+ }
+
+.bride-img{
+
+text-align: center;
+
+}
+
+.card-section .left-content{
+
+text-align: center;
+margin-right: 10px;
+margin-left: 0px;
+margin-top: 20px;
+
+
+}
+
+ img.img2 {
+    border-radius: 50%;
+    width: 140px;
+    float: none;
+ } 
+
+.card-section .right-content{
+
+text-align: center;
+margin-right: 10px;
+margin-left: 0px;
+margin-top: 20px;
+
+}
+
+.groom-img{
+
+text-align: center;
+
+}
+
+.card-section{
+
+flex-direction: column;
+
+}
+
+
+.col-6 {
+    max-width: 100%;
+}
+
+.card-main{
+
+padding-right: 30px;
+padding-left: 30px;
+
+}
+
+}
+
+
+/* couple heading */
+
+
+
+@media (max-width: 768px) {
+.couple-heading h3 {
+  
+    font-size: 37px;
+    color: #BD945A;
+
+}
+
+.countdown h4 {
+    position: relative;
+  
+    font-size: 34px;
+
+}
+
+.countdown-start h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 29px;
+
+}
+}
+
+
+/* story container */
+
+
+@media (max-width: 768px) {
+.story-container {
+    padding-right: 30px;
+    padding-left: 30px;
+    flex-direction: column;
+}
+
+.story-content {
+    padding-top: 30px;
+    margin-left: 2px;
+}
+}
+
+
+/* ornagization section */
+
+@media (max-width: 768px) {
+.organization-section {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #faf8f7;
+}
+}
+
+
+
+/* when and where section  */
+@media (max-width: 768px) {
+
+.where-section {
+    padding-right: 10px; 
+     padding-left: 10px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.card-title {
+    font-size: 20px;
+    
+}
+
+.card {
+
+    margin-top: 20px;
+}
+
+}
+
+/* footer section */
+
+@media (max-width: 768px) {
+.footer-container{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.form {
+   
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.form-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-attachment: fixed;
+}
+
+}
