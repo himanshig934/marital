@@ -1,2 +1,1 @@
 # marital
-![Uploading image.png…]()
